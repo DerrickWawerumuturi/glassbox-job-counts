@@ -1,0 +1,201 @@
+week,job_type,skill,jobs_naming,jobs_requiring,jobs_readable,share_naming,employers
+2026-10-12,ai,LLMs,343,292,567,0.6049,160
+2026-10-12,ai,Python,258,235,567,0.455,121
+2026-10-12,ai,AI agents,220,167,567,0.388,115
+2026-10-12,ai,Machine learning,212,185,567,0.3739,111
+2026-10-12,ai,RAG,107,82,567,0.1887,61
+2026-10-12,ai,"AI assistants (ChatGPT, Copilot)",100,87,567,0.1764,59
+2026-10-12,ai,AWS,96,71,567,0.1693,60
+2026-10-12,ai,CI/CD,77,62,567,0.1358,60
+2026-10-12,ai,SQL,76,68,567,0.134,49
+2026-10-12,ai,Distributed systems,71,64,567,0.1252,41
+2026-10-12,ai,Kubernetes,69,56,567,0.1217,44
+2026-10-12,ai,Azure,67,51,567,0.1182,47
+2026-10-12,ai,MLOps,66,49,567,0.1164,37
+2026-10-12,ai,Google Cloud,62,46,567,0.1093,39
+2026-10-12,ai,ETL / data pipelines,61,47,567,0.1076,38
+2026-10-12,ai,LangChain,60,56,567,0.1058,34
+2026-10-12,ai,PyTorch,52,49,567,0.0917,31
+2026-10-12,ai,Go,47,40,567,0.0829,33
+2026-10-12,ai,Observability,47,33,567,0.0829,40
+2026-10-12,ai,Docker,46,37,567,0.0811,29
+2026-10-12,ai,Vector databases,46,34,567,0.0811,30
+2026-10-12,ai,Prototyping,44,29,567,0.0776,33
+2026-10-12,ai,C++,35,33,567,0.0617,23
+2026-10-12,ai,Git,35,34,567,0.0617,28
+2026-10-12,ai,"Workflow automation (Zapier, n8n)",35,28,567,0.0617,27
+2026-10-12,ai,Terraform / IaC,34,23,567,0.06,26
+2026-10-12,ai,Data analysis,32,22,567,0.0564,21
+2026-10-12,ai,JavaScript,32,28,567,0.0564,14
+2026-10-12,ai,REST APIs,32,29,567,0.0564,28
+2026-10-12,ai,TensorFlow,30,26,567,0.0529,21
+2026-10-12,ai,TypeScript,30,27,567,0.0529,20
+2026-10-12,ai,Change management,29,26,567,0.0511,18
+2026-10-12,ai,System design,27,24,567,0.0476,22
+2026-10-12,ai,Data quality,26,21,567,0.0459,24
+2026-10-12,ai,Statistics,26,18,567,0.0459,21
+2026-10-12,ai,Cybersecurity,25,20,567,0.0441,19
+2026-10-12,ai,Java,25,22,567,0.0441,19
+2026-10-12,ai,Reinforcement learning,25,18,567,0.0441,18
+2026-10-12,ai,Deep learning,24,20,567,0.0423,22
+2026-10-12,ai,Salesforce,24,14,567,0.0423,18
+2026-10-12,devops,Terraform / IaC,248,206,567,0.4374,177
+2026-10-12,devops,Python,246,195,567,0.4339,147
+2026-10-12,devops,Kubernetes,237,200,567,0.418,160
+2026-10-12,devops,AWS,222,185,567,0.3915,153
+2026-10-12,devops,CI/CD,213,177,567,0.3757,159
+2026-10-12,devops,Observability,186,133,567,0.328,140
+2026-10-12,devops,Linux,159,137,567,0.2804,105
+2026-10-12,devops,Incident response,139,89,567,0.2451,94
+2026-10-12,devops,Go,128,104,567,0.2257,81
+2026-10-12,devops,Azure,127,99,567,0.224,102
+2026-10-12,devops,Google Cloud,110,80,567,0.194,77
+2026-10-12,devops,Git,109,82,567,0.1922,81
+2026-10-12,devops,Computer networking,104,73,567,0.1834,71
+2026-10-12,devops,Docker,101,77,567,0.1781,85
+2026-10-12,devops,Ansible / config management,90,67,567,0.1587,70
+2026-10-12,devops,Distributed systems,90,77,567,0.1587,55
+2026-10-12,devops,Bash,88,75,567,0.1552,76
+2026-10-12,devops,Identity and access management,86,70,567,0.1517,68
+2026-10-12,devops,Jenkins / CI servers,79,61,567,0.1393,63
+2026-10-12,devops,TypeScript,70,57,567,0.1235,45
+2026-10-12,devops,PostgreSQL,63,38,567,0.1111,48
+2026-10-12,devops,Configuration management,62,46,567,0.1093,45
+2026-10-12,devops,GitOps,62,39,567,0.1093,51
+2026-10-12,devops,Cybersecurity,57,30,567,0.1005,50
+2026-10-12,devops,GitHub Actions,57,48,567,0.1005,51
+2026-10-12,devops,Machine learning,57,26,567,0.1005,33
+2026-10-12,devops,LLMs,53,42,567,0.0935,40
+2026-10-12,devops,SQL,51,38,567,0.0899,42
+2026-10-12,devops,Helm,50,35,567,0.0882,40
+2026-10-12,devops,System design,47,31,567,0.0829,35
+2026-10-12,devops,PowerShell,46,35,567,0.0811,39
+2026-10-12,devops,AI agents,45,34,567,0.0794,38
+2026-10-12,devops,Root cause analysis,45,24,567,0.0794,43
+2026-10-12,devops,Java,44,41,567,0.0776,37
+2026-10-12,devops,Disaster recovery,43,23,567,0.0758,38
+2026-10-12,devops,Load balancing,41,27,567,0.0723,34
+2026-10-12,devops,REST APIs,40,32,567,0.0705,31
+2026-10-12,devops,Virtualization,40,33,567,0.0705,30
+2026-10-12,devops,Embedded systems,39,25,567,0.0688,25
+2026-10-12,devops,"AI assistants (ChatGPT, Copilot)",38,28,567,0.067,34
+2026-10-12,entry-level-software,Python,276,220,559,0.4937,114
+2026-10-12,entry-level-software,C++,164,144,559,0.2934,65
+2026-10-12,entry-level-software,Git,117,87,559,0.2093,60
+2026-10-12,entry-level-software,TypeScript,114,91,559,0.2039,71
+2026-10-12,entry-level-software,Linux,104,66,559,0.186,46
+2026-10-12,entry-level-software,Java,100,91,559,0.1789,59
+2026-10-12,entry-level-software,Go,97,82,559,0.1735,51
+2026-10-12,entry-level-software,React,91,67,559,0.1628,58
+2026-10-12,entry-level-software,AWS,88,42,559,0.1574,58
+2026-10-12,entry-level-software,Machine learning,85,40,559,0.1521,49
+2026-10-12,entry-level-software,Distributed systems,84,49,559,0.1503,51
+2026-10-12,entry-level-software,JavaScript,82,77,559,0.1467,52
+2026-10-12,entry-level-software,C,80,66,559,0.1431,32
+2026-10-12,entry-level-software,SQL,79,60,559,0.1413,50
+2026-10-12,entry-level-software,CI/CD,73,32,559,0.1306,44
+2026-10-12,entry-level-software,Kubernetes,69,27,559,0.1234,50
+2026-10-12,entry-level-software,LLMs,64,44,559,0.1145,43
+2026-10-12,entry-level-software,Embedded systems,58,31,559,0.1038,27
+2026-10-12,entry-level-software,Automated testing,58,22,559,0.1038,39
+2026-10-12,entry-level-software,AI agents,57,30,559,0.102,37
+2026-10-12,entry-level-software,REST APIs,57,50,559,0.102,40
+2026-10-12,entry-level-software,Docker,56,29,559,0.1002,42
+2026-10-12,entry-level-software,Robotics,51,27,559,0.0912,22
+2026-10-12,entry-level-software,"AI assistants (ChatGPT, Copilot)",50,32,559,0.0894,40
+2026-10-12,entry-level-software,Rust,49,37,559,0.0877,32
+2026-10-12,entry-level-software,ETL / data pipelines,48,14,559,0.0859,33
+2026-10-12,entry-level-software,PostgreSQL,46,40,559,0.0823,31
+2026-10-12,entry-level-software,Node.js,42,29,559,0.0751,34
+2026-10-12,entry-level-software,System design,42,20,559,0.0751,28
+2026-10-12,entry-level-software,Google Cloud,41,23,559,0.0733,34
+2026-10-12,entry-level-software,Technical writing,41,24,559,0.0733,18
+2026-10-12,entry-level-software,Azure,40,20,559,0.0716,29
+2026-10-12,entry-level-software,Data analysis,40,21,559,0.0716,18
+2026-10-12,entry-level-software,Spring Boot,39,36,559,0.0698,18
+2026-10-12,entry-level-software,Observability,37,18,559,0.0662,32
+2026-10-12,entry-level-software,Terraform / IaC,35,16,559,0.0626,29
+2026-10-12,entry-level-software,C#,31,28,559,0.0555,21
+2026-10-12,entry-level-software,Statistics,31,17,559,0.0555,22
+2026-10-12,entry-level-software,Prototyping,29,21,559,0.0519,15
+2026-10-12,entry-level-software,MATLAB,26,12,559,0.0465,12
+2026-10-12,machine-learning,Machine learning,323,311,351,0.9202,160
+2026-10-12,machine-learning,Python,220,208,351,0.6268,128
+2026-10-12,machine-learning,LLMs,158,109,351,0.4501,87
+2026-10-12,machine-learning,PyTorch,150,133,351,0.4274,99
+2026-10-12,machine-learning,Deep learning,109,92,351,0.3105,74
+2026-10-12,machine-learning,MLOps,84,52,351,0.2393,65
+2026-10-12,machine-learning,ETL / data pipelines,75,49,351,0.2137,51
+2026-10-12,machine-learning,Statistics,73,61,351,0.208,48
+2026-10-12,machine-learning,TensorFlow,69,60,351,0.1966,45
+2026-10-12,machine-learning,AI agents,65,49,351,0.1852,45
+2026-10-12,machine-learning,AWS,63,50,351,0.1795,49
+2026-10-12,machine-learning,Computer vision,61,53,351,0.1738,46
+2026-10-12,machine-learning,Reinforcement learning,58,39,351,0.1652,36
+2026-10-12,machine-learning,Distributed systems,56,46,351,0.1595,39
+2026-10-12,machine-learning,C++,54,41,351,0.1538,32
+2026-10-12,machine-learning,Kubernetes,47,35,351,0.1339,35
+2026-10-12,machine-learning,RAG,44,33,351,0.1254,31
+2026-10-12,machine-learning,Google Cloud,43,32,351,0.1225,32
+2026-10-12,machine-learning,Apache Spark,41,30,351,0.1168,27
+2026-10-12,machine-learning,SQL,41,40,351,0.1168,31
+2026-10-12,machine-learning,CI/CD,40,24,351,0.114,33
+2026-10-12,machine-learning,"Model optimization (quantization, distillation)",39,25,351,0.1111,26
+2026-10-12,machine-learning,NLP,38,24,351,0.1083,33
+2026-10-12,machine-learning,Observability,36,20,351,0.1026,26
+2026-10-12,machine-learning,Docker,32,21,351,0.0912,27
+2026-10-12,machine-learning,Forecasting / time series,31,20,351,0.0883,22
+2026-10-12,machine-learning,Robotics,31,26,351,0.0883,20
+2026-10-12,machine-learning,"LLM serving (vLLM, TGI)",29,22,351,0.0826,21
+2026-10-12,machine-learning,Data quality,28,22,351,0.0798,19
+2026-10-12,machine-learning,Feature engineering,28,18,351,0.0798,21
+2026-10-12,machine-learning,Git,28,19,351,0.0798,22
+2026-10-12,machine-learning,Airflow,26,22,351,0.0741,19
+2026-10-12,machine-learning,Recommender systems,25,21,351,0.0712,15
+2026-10-12,machine-learning,Azure,24,21,351,0.0684,18
+2026-10-12,machine-learning,Prototyping,23,16,351,0.0655,17
+2026-10-12,machine-learning,scikit-learn,22,18,351,0.0627,20
+2026-10-12,machine-learning,Incident response,21,13,351,0.0598,16
+2026-10-12,machine-learning,Go,20,16,351,0.057,14
+2026-10-12,machine-learning,"AI assistants (ChatGPT, Copilot)",19,18,351,0.0541,14
+2026-10-12,machine-learning,Data analysis,19,12,351,0.0541,14
+2026-10-12,software-engineering,Python,1092,906,2757,0.3961,331
+2026-10-12,software-engineering,Distributed systems,694,571,2757,0.2517,198
+2026-10-12,software-engineering,AWS,622,446,2757,0.2256,250
+2026-10-12,software-engineering,Go,621,513,2757,0.2252,179
+2026-10-12,software-engineering,Kubernetes,600,401,2757,0.2176,227
+2026-10-12,software-engineering,TypeScript,557,436,2757,0.202,243
+2026-10-12,software-engineering,C++,533,457,2757,0.1933,154
+2026-10-12,software-engineering,CI/CD,532,366,2757,0.193,244
+2026-10-12,software-engineering,Java,482,424,2757,0.1748,160
+2026-10-12,software-engineering,LLMs,464,334,2757,0.1683,181
+2026-10-12,software-engineering,Machine learning,421,258,2757,0.1527,173
+2026-10-12,software-engineering,Linux,401,296,2757,0.1454,121
+2026-10-12,software-engineering,React,399,308,2757,0.1447,216
+2026-10-12,software-engineering,AI agents,397,271,2757,0.144,152
+2026-10-12,software-engineering,Observability,360,248,2757,0.1306,174
+2026-10-12,software-engineering,Git,357,266,2757,0.1295,169
+2026-10-12,software-engineering,Google Cloud,353,253,2757,0.128,144
+2026-10-12,software-engineering,SQL,337,268,2757,0.1222,178
+2026-10-12,software-engineering,Docker,321,206,2757,0.1164,167
+2026-10-12,software-engineering,REST APIs,321,265,2757,0.1164,175
+2026-10-12,software-engineering,PostgreSQL,318,246,2757,0.1153,163
+2026-10-12,software-engineering,Azure,297,217,2757,0.1077,119
+2026-10-12,software-engineering,Rust,297,223,2757,0.1077,105
+2026-10-12,software-engineering,Terraform / IaC,288,202,2757,0.1045,157
+2026-10-12,software-engineering,"AI assistants (ChatGPT, Copilot)",279,218,2757,0.1012,164
+2026-10-12,software-engineering,Incident response,272,173,2757,0.0987,125
+2026-10-12,software-engineering,System design,270,194,2757,0.0979,156
+2026-10-12,software-engineering,ETL / data pipelines,262,144,2757,0.095,136
+2026-10-12,software-engineering,C,261,219,2757,0.0947,90
+2026-10-12,software-engineering,JavaScript,255,220,2757,0.0925,140
+2026-10-12,software-engineering,Automated testing,237,134,2757,0.086,134
+2026-10-12,software-engineering,Embedded systems,192,122,2757,0.0696,54
+2026-10-12,software-engineering,Node.js,181,140,2757,0.0657,122
+2026-10-12,software-engineering,Kafka,169,119,2757,0.0613,92
+2026-10-12,software-engineering,Microservices,158,117,2757,0.0573,95
+2026-10-12,software-engineering,Data warehousing,154,117,2757,0.0559,85
+2026-10-12,software-engineering,Robotics,145,79,2757,0.0526,51
+2026-10-12,software-engineering,Computer networking,140,87,2757,0.0508,67
+2026-10-12,software-engineering,Identity and access management,135,97,2757,0.049,75
+2026-10-12,software-engineering,Data analysis,132,69,2757,0.0479,60

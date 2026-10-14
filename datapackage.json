@@ -1,0 +1,151 @@
+{
+  "name": "glassbox-job-counts",
+  "title": "Glassbox weekly job counts",
+  "version": "1",
+  "homepage": "https://seeglassbox.com/method",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "temporal": {
+    "start": "2026-10-05",
+    "end": "2026-10-12"
+  },
+  "resources": [
+    {
+      "name": "job_types",
+      "path": "job_types.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "week",
+            "type": "date",
+            "description": "Monday of the week the jobs were counted (UTC)"
+          },
+          {
+            "name": "job_type",
+            "type": "string",
+            "description": "The market page: seeglassbox.com/market/<job_type>"
+          },
+          {
+            "name": "jobs_counted",
+            "type": "integer",
+            "description": "Open jobs of this type counted that week, each role once"
+          },
+          {
+            "name": "jobs_readable",
+            "type": "integer",
+            "description": "Of those, jobs whose ad was long enough to read skills from"
+          },
+          {
+            "name": "employers",
+            "type": "integer",
+            "description": "Distinct employers among the jobs counted"
+          }
+        ],
+        "primaryKey": [
+          "week",
+          "job_type"
+        ]
+      }
+    },
+    {
+      "name": "skills",
+      "path": "skills.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "week",
+            "type": "date",
+            "description": "Monday of the week the jobs were counted (UTC)"
+          },
+          {
+            "name": "job_type",
+            "type": "string",
+            "description": "The market page: seeglassbox.com/market/<job_type>"
+          },
+          {
+            "name": "skill",
+            "type": "string",
+            "description": "The skill, as the site names it"
+          },
+          {
+            "name": "jobs_naming",
+            "type": "integer",
+            "description": "Readable jobs that name the skill anywhere in the ad"
+          },
+          {
+            "name": "jobs_requiring",
+            "type": "integer",
+            "description": "Readable jobs that list the skill as required"
+          },
+          {
+            "name": "jobs_readable",
+            "type": "integer",
+            "description": "Readable jobs of this type: the denominator"
+          },
+          {
+            "name": "share_naming",
+            "type": "number",
+            "description": "jobs_naming / jobs_readable, 4 decimals"
+          },
+          {
+            "name": "employers",
+            "type": "integer",
+            "description": "Distinct employers among the jobs naming the skill (always 10 or more)"
+          }
+        ],
+        "primaryKey": [
+          "week",
+          "job_type",
+          "skill"
+        ]
+      }
+    },
+    {
+      "name": "experience",
+      "path": "experience.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "week",
+            "type": "date",
+            "description": "Monday of the week the jobs were counted (UTC)"
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "'early career titles': software jobs whose title says intern, graduate, new grad, entry level, early career or junior. 'all software': every software job counted"
+          },
+          {
+            "name": "years_bucket",
+            "type": "string",
+            "description": "Years of experience required: 0, 1, 2, 3, 4, 5+, or 'unstated'"
+          },
+          {
+            "name": "jobs",
+            "type": "integer",
+            "description": "Jobs in the group asking for that many years"
+          }
+        ],
+        "primaryKey": [
+          "week",
+          "group",
+          "years_bucket"
+        ]
+      }
+    }
+  ]
+}
